@@ -1,0 +1,37 @@
+/* External CSS */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Default background image for header */
+#header-cover {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh; /* Make the header cover the full height of the viewport */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center;
+}
+
+/* Table Styling */
+#course-table {
+    margin: auto;
+    width: 80%;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+}
+
+/* Dropdown list hover effect */
+.navbar-custom .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
